@@ -1,0 +1,195 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  background-color: #f5fafc;
+  color: rgb(36, 37, 37);
+}
+
+main {
+  flex: 1;
+  background-color: #f5fafc;
+}
+
+#header {
+  background-color: #f5fafc;
+  color: rgb(135, 140, 141);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+/* NAV BAR STYLING */
+.container-fluid {
+  margin: 2% 10%;
+  background-color: #f5fafc;
+}
+
+.navbar {
+  background-color: #f5fafc;
+}
+  
+.navbar-brand {
+  background-color: #f5fafc;
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(195, 203, 206);
+  font-size: 2.2rem;
+  padding: 0 18px;
+}
+
+.navbar-nav {
+  background-color: #f5fafc;
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(195, 203, 206);
+  padding: 0 18px;
+}
+  
+.nav-link {
+  background-color: #f5fafc;
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+/* CAROUSEL STYLING */
+.carousel-item { 
+  height:620px;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 100% !important;
+  object-fit: cover;
+}
+
+/* ABOUT SECTION STYLING */
+#about {
+  background-color: #ffffff;
+  color: rgb(76, 119, 119);
+  padding: 4% 10%;
+}
+
+.p-about {
+  padding: 50px 20px 0px;
+}
+
+/* DOGS SECTION STYLING */
+#dogs{
+  background-color: #82bcd3;
+  color: rgb(36, 37, 37);
+  padding: 5% 10%;
+}
+
+.dog-page {
+  padding: 20px 10px;
+}
+
+/* QUIZ STYLING */
+#quiz {
+  background-color: #ffffff;
+  color: rgb(76, 119, 119);
+  padding: 7% 7%;
+}
+
+#quiz-title {
+  padding: 0% 0% 5%;
+}
+
+#quiz-questions {
+  padding: 0% 12%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+#frm1 {
+  padding: 2%;
+}
+
+/* FOOTER STYLING */
+#footer {
+  background-color: #d3e6ee;
+  color: rgb(36, 37, 37);
+  padding: 1% 10%;
+}
+
+/* DOG BREEDS PAGES STYLING */
+#breed {
+  background-color: #ffffff;
+  color: rgb(76, 119, 119);
+  font-weight: bold;
+  padding: 2% 10%;
+  font-family: 'Montserrat', sans-serif;
+  align-items: center;
+}
+
+.container-title {
+  padding: 0% 0% 2%;
+}
+
+.container-name ul {
+  padding: 0% 42%;
+  align-content: flex-start;
+}
+
+#breed h1 {
+  font-weight: bold;
+}
+
+#breed img {
+  width: 600px;
+  height: 400px;
+  align-items: center;
+  padding: 5px 10px 5px;
+}
+
+#breed-about {
+  background-color: #82bcd3;
+  color: rgb(36, 37, 37);
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 5% 5%;
+}
+
+#breed-traits {
+  background-color: #ffffff;
+  color: rgb(76, 119, 119);
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 5% 5%;
+}
+
+#breed-grooming {
+  background-color: #82bcd3;
+  color: rgb(36, 37, 37);
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 5% 5%;
+}
+
+#breed-height {
+  background-color: #ffffff;
+  color: rgb(76, 119, 119);
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 5% 5%;
+}
+
+/* GO-TO-TOP BUTTON STYLING */
+#go-to-top {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 100;
+  display: none;
+}
